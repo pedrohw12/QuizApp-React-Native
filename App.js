@@ -7,7 +7,7 @@ import {
 export default class App extends Component {
   render() {
     return (
-      <View style={{height: '40%', borderColor: 'red'}}>
+      <View style={{height: '51%', borderColor: 'red'}}>
         <View style={styles.toolbar}>        
         </View>
         <Quiz /> 
@@ -21,6 +21,6 @@ const styles = StyleSheet.create({
     backgroundColor:'#00a8ff',
     paddingTop:30,
     paddingBottom:10,
-    height: 60
+    height: 60,
   },
 });
