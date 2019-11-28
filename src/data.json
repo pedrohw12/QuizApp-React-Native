@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1, "pergunta": "Obstrução do canal da uretra...", "resposta": "..", 
+    "opcoes": [ {"id": 1, "opcao": "ESTAR" }, { "id": 2, "opcao": "SER" } ]
+  },
+  {
+    "id": 2, "pergunta": "Gravidez ou parto...", "resposta": "..",
+    "opcoes": [ { "id": 1, "opcao": "ESTAR" }, { "id": 2, "opcao": "SER" } ]
+  },
+  {
+    "id": 3, "pergunta": "Obesidade...", "resposta": "..",
+    "opcoes": [ { "id": 1, "opcao": "ESTAR" }, { "id": 2, "opcao": "SER" } ]
+  },
+  {
+    "id": 4, "pergunta": "Enfraquecimento dos músculos pélvicos...", "resposta": "..",
+    "opcoes": [ { "id": 1, "opcao": "ESTAR" }, { "id": 2, "opcao": "SER" } ]
+  },
+  {
+    "id": 5, "pergunta": "Irritação da bexiga...", "resposta": "..",
+    "opcoes": [ { "id": 1, "opcao": "ESTAR" }, { "id": 2, "opcao": "SER" } ]
+  },
+  {
+    "id": 6, "pergunta": "Infecção urinária...", "resposta": "..",
+    "opcoes": [ { "id": 1, "opcao": "ESTAR" }, { "id": 2, "opcao": "SER" } ]
+  },
+  {
+    "id": 7, "pergunta": "Constipação...", "resposta": "..",
+    "opcoes": [ { "id": 1, "opcao": "ESTAR" }, { "id": 2, "opcao": "SER" } ]
+  },
+  {
+    "id": 8, "pergunta": "Medo, estresse e ansiedade...", "resposta": "..",
+    "opcoes": [ { "id": 1, "opcao": "ESTAR" }, { "id": 2, "opcao": "SER" } ]
+  },
+  {
+    "id": 9, "pergunta": "Suplementos vitamínicos...", "resposta": "..",
+    "opcoes": [ { "id": 1, "opcao": "ESTAR" }, { "id": 2, "opcao": "SER" } ]
+  },
+  {
+    "id": 10, "pergunta": "Medicamentos para doenças cardíacas...", "resposta": "..",
+    "opcoes": [ { "id": 1, "opcao": "ESTAR" }, { "id": 2, "opcao": "SER" } ]
+  },
+  {
+    "id": 11, "pergunta": "Sedativos e relaxantes musculares...", "resposta": "..",
+    "opcoes": [ { "id": 1, "opcao": "ESTAR" }, { "id": 2, "opcao": "SER" } ]
+  },
+  {
+    "id": 12, "pergunta": "Medicamentos para controle da pressão arterial...", "resposta": "..",
+    "opcoes": [ { "id": 1, "opcao": "ESTAR" }, { "id": 2, "opcao": "SER" } ]
+  },
+  {
+    "id": 13, "pergunta": "Lesões musculares...", "resposta": "..",
+    "opcoes": [ { "id": 1, "opcao": "ESTAR" }, { "id": 2, "opcao": "SER" } ]
+  },
+  {
+    "id": 14, "pergunta": "Doenças pulmonares...", "resposta": "..",
+    "opcoes": [ { "id": 1, "opcao": "ESTAR" }, { "id": 2, "opcao": "SER" } ]
+  },
+  {
+    "id":15, "pergunta": "Câncer...", "resposta": "..",
+    "opcoes": [ { "id": 1, "opcao": "ESTAR" }, { "id": 2, "opcao": "SER" } ]
+  },
+  {
+    "id": 16, "pergunta": "Aumento do tamanho da próstata...", "resposta": "..",
+    "opcoes": [ { "id": 1, "opcao": "ESTAR" }, { "id": 2, "opcao": "SER" } ]
+  },
+  {
+    "id": 17, "pergunta": "Diabetes...", "resposta": "..",
+    "opcoes": [ { "id": 1, "opcao": "ESTAR" }, { "id": 2, "opcao": "SER" } ]
+  },
+  {
+    "id": 18, "pergunta": "Disposição genética...", "resposta": "..",
+    "opcoes": [ { "id": 1, "opcao": "ESTAR" }, { "id": 2, "opcao": "SER" } ]
+  },
+  {
+    "id": 19, "pergunta": "Parkinson...", "resposta": "..",
+    "opcoes": [ { "id": 1, "opcao": "ESTAR" }, { "id": 2, "opcao": "SER" } ]
+  },
+  {
+    "id": 20, "pergunta": "Tosse crônica em fumantes...", "resposta": "..",
+    "opcoes": [ { "id": 1, "opcao": "ESTAR" }, { "id": 2, "opcao": "SER" } ]
+  },
+  {
+    "id": 21, "pergunta": "Problemas neurológicos...", "resposta": "..",
+    "opcoes": [ { "id": 1, "opcao": "ESTAR" }, { "id": 2, "opcao": "SER" } ]
+  },
+  {
+    "id": 22, "pergunta": "Histerectomia...", "resposta": "..",
+    "opcoes": [ { "id": 1, "opcao": "ESTAR" }, { "id": 2, "opcao": "SER" } ]
+  },
+  {
+    "id": 23, "pergunta": "Idade avançada...", "resposta": "..",
+    "opcoes": [ { "id": 1, "opcao": "ESTAR" }, { "id": 2, "opcao": "SER" } ]
+  },
+  {
+    "id": 24, "pergunta": "Cirurgia de retirada do útero...", "resposta": "..",
+    "opcoes": [ { "id": 1, "opcao": "ESTAR" }, { "id": 2, "opcao": "SER" } ]
+  },
+  {
+    "id": 25, "pergunta": "AVC...", "resposta": "..",
+    "opcoes": [ { "id": 1, "opcao": "ESTAR" }, { "id": 2, "opcao": "SER" } ]
+  },
+  {
+    "id": 26, "pergunta": "Alzheimer...", "resposta": "..",
+    "opcoes": [ { "id": 1, "opcao": "ESTAR" }, { "id": 2, "opcao": "SER" } ]
+  }
+]
