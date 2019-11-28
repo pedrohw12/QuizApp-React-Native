@@ -1,14 +1,24 @@
-import React, { Component } from 'react';
+import React, { useRef } from 'react';
+import { Dimensions } from 'react-native';
 import { ScrollView } from 'react-native';
 
 import Perguntas from './Perguntas';
 
-export default class Quiz extends Component {
-  render() {
+
+const screenHeight = Math.round(Dimensions.get('screen').height);
+let thirdH = screenHeight / 3.8;
+
+export default (props) => {
+  const perguntaRef = useRef();
+
       return ( 
-        <ScrollView>
+        <ScrollView
+          ref={perguntaRef}
+          showsVerticalScrollIndicator={false}
+          decelerationRate="fast"
+          snapToInterval={thirdH}
+        >
          <Perguntas />
         </ScrollView>
     );
-  }
 }

@@ -3,14 +3,22 @@ import {
   StyleSheet,
   Text,
   View,
-  TouchableOpacity
+  TouchableOpacity,
+  Dimensions
 } from 'react-native';
 
-import Botao from './style';
+import {Botao, Box} from './style';
 import data from './data.json';
+import style from './style';
 
 //DISABLE YELLOW BOX
 console.disableYellowBox = true;
+
+const screenHeight = Math.round(Dimensions.get('window').height);
+let thirdH = screenHeight / 4;
+
+const screenWidth = Math.round(Dimensions.get('window').width);
+let thirdW = screenWidth / 3;
 
 export default class Perguntas extends Component {
   state = {
@@ -25,20 +33,20 @@ export default class Perguntas extends Component {
   
   render() {
       return ( 
-         data.map(i=> (
-           <View style={styles.perguntaBox}>
+         data.map((i, k)=> (
+           <Box key={k} height={thirdH}>
 
             <Text> {i.pergunta} </Text>
             {i.opcoes.map(o=> 
 
             <View style={styles.respostaBox}>
-              <Botao onPress={()=> this.handleClick()} >
+              <Botao onPress={()=> this.handleClick()} width={thirdH} >
                 <Text> {o.opcao} </Text>
               </Botao>
             </View>
             )}
 
-           </View>
+           </Box>
          ))
         
     );
@@ -51,12 +59,21 @@ const styles = StyleSheet.create({
     padding: 30,
     margin: 10,
     borderWidth: 1,
-    borderRadius: 8
+    borderRadius: 8,
+    backgroundColor: 'orange',
   },
   respostaBox: {
+    flex: 1,
     marginTop: 10,
     padding: 10,
-    justifyContent: 'space-between',
+    justifyContent: 'center',
+    alignItems: 'center',
     flexDirection: 'row'
+  },
+  botao: {
+    borderWidth: 1,
+    borderRadius: 8,
+    width: '45%',
+    alignItems: 'center',
   }
 });
