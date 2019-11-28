@@ -26,7 +26,7 @@ export default class Perguntas extends Component {
             {i.opcoes.map(o=> 
 
             <View style={styles.respostaBox}>
-              <Botao onPress={()=> alert('oi')} width={thirdH} >
+              <Botao onPress={()=> alert(o.opcao)} width={thirdH} >
                 <Text> {o.opcao} </Text>
               </Botao>
             </View>

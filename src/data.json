@@ -1,106 +1,106 @@
 [
   {
-    "id": 1, "pergunta": "Obstrução do canal da uretra...", "resposta": "..", 
+    "id": 1, "pergunta": "Obstrução do canal da uretra...", "resposta": "SER", 
     "opcoes": [ {"id": 1, "opcao": "ESTAR" }, { "id": 2, "opcao": "SER" } ]
   },
   {
-    "id": 2, "pergunta": "Gravidez ou parto...", "resposta": "..",
+    "id": 2, "pergunta": "Gravidez ou parto...", "resposta": "SER",
     "opcoes": [ { "id": 1, "opcao": "ESTAR" }, { "id": 2, "opcao": "SER" } ]
   },
   {
-    "id": 3, "pergunta": "Obesidade...", "resposta": "..",
+    "id": 3, "pergunta": "Obesidade...", "resposta": "SER",
     "opcoes": [ { "id": 1, "opcao": "ESTAR" }, { "id": 2, "opcao": "SER" } ]
   },
   {
-    "id": 4, "pergunta": "Enfraquecimento dos músculos pélvicos...", "resposta": "..",
+    "id": 4, "pergunta": "Enfraquecimento dos músculos pélvicos...", "resposta": "SER",
     "opcoes": [ { "id": 1, "opcao": "ESTAR" }, { "id": 2, "opcao": "SER" } ]
   },
   {
-    "id": 5, "pergunta": "Irritação da bexiga...", "resposta": "..",
+    "id": 5, "pergunta": "Irritação da bexiga...", "resposta": "SER",
     "opcoes": [ { "id": 1, "opcao": "ESTAR" }, { "id": 2, "opcao": "SER" } ]
   },
   {
-    "id": 6, "pergunta": "Infecção urinária...", "resposta": "..",
+    "id": 6, "pergunta": "Infecção urinária...", "resposta": "SER",
     "opcoes": [ { "id": 1, "opcao": "ESTAR" }, { "id": 2, "opcao": "SER" } ]
   },
   {
-    "id": 7, "pergunta": "Constipação...", "resposta": "..",
+    "id": 7, "pergunta": "Constipação...", "resposta": "SER",
     "opcoes": [ { "id": 1, "opcao": "ESTAR" }, { "id": 2, "opcao": "SER" } ]
   },
   {
-    "id": 8, "pergunta": "Medo, estresse e ansiedade...", "resposta": "..",
+    "id": 8, "pergunta": "Medo, estresse e ansiedade...", "resposta": "SER",
     "opcoes": [ { "id": 1, "opcao": "ESTAR" }, { "id": 2, "opcao": "SER" } ]
   },
   {
-    "id": 9, "pergunta": "Suplementos vitamínicos...", "resposta": "..",
+    "id": 9, "pergunta": "Suplementos vitamínicos...", "resposta": "SER",
     "opcoes": [ { "id": 1, "opcao": "ESTAR" }, { "id": 2, "opcao": "SER" } ]
   },
   {
-    "id": 10, "pergunta": "Medicamentos para doenças cardíacas...", "resposta": "..",
+    "id": 10, "pergunta": "Medicamentos para doenças cardíacas...", "resposta": "SER",
     "opcoes": [ { "id": 1, "opcao": "ESTAR" }, { "id": 2, "opcao": "SER" } ]
   },
   {
-    "id": 11, "pergunta": "Sedativos e relaxantes musculares...", "resposta": "..",
+    "id": 11, "pergunta": "Sedativos e relaxantes musculares...", "resposta": "SER",
     "opcoes": [ { "id": 1, "opcao": "ESTAR" }, { "id": 2, "opcao": "SER" } ]
   },
   {
-    "id": 12, "pergunta": "Medicamentos para controle da pressão arterial...", "resposta": "..",
+    "id": 12, "pergunta": "Medicamentos para controle da pressão arterial...", "resposta": "SER",
     "opcoes": [ { "id": 1, "opcao": "ESTAR" }, { "id": 2, "opcao": "SER" } ]
   },
   {
-    "id": 13, "pergunta": "Lesões musculares...", "resposta": "..",
+    "id": 13, "pergunta": "Lesões musculares...", "resposta": "SER",
     "opcoes": [ { "id": 1, "opcao": "ESTAR" }, { "id": 2, "opcao": "SER" } ]
   },
   {
-    "id": 14, "pergunta": "Doenças pulmonares...", "resposta": "..",
+    "id": 14, "pergunta": "Doenças pulmonares...", "resposta": "SER",
     "opcoes": [ { "id": 1, "opcao": "ESTAR" }, { "id": 2, "opcao": "SER" } ]
   },
   {
-    "id":15, "pergunta": "Câncer...", "resposta": "..",
+    "id":15, "pergunta": "Câncer...", "resposta": "SER",
     "opcoes": [ { "id": 1, "opcao": "ESTAR" }, { "id": 2, "opcao": "SER" } ]
   },
   {
-    "id": 16, "pergunta": "Aumento do tamanho da próstata...", "resposta": "..",
+    "id": 16, "pergunta": "Aumento do tamanho da próstata...", "resposta": "SER",
     "opcoes": [ { "id": 1, "opcao": "ESTAR" }, { "id": 2, "opcao": "SER" } ]
   },
   {
-    "id": 17, "pergunta": "Diabetes...", "resposta": "..",
+    "id": 17, "pergunta": "Diabetes...", "resposta": "SER",
     "opcoes": [ { "id": 1, "opcao": "ESTAR" }, { "id": 2, "opcao": "SER" } ]
   },
   {
-    "id": 18, "pergunta": "Disposição genética...", "resposta": "..",
+    "id": 18, "pergunta": "Disposição genética...", "resposta": "SER",
     "opcoes": [ { "id": 1, "opcao": "ESTAR" }, { "id": 2, "opcao": "SER" } ]
   },
   {
-    "id": 19, "pergunta": "Parkinson...", "resposta": "..",
+    "id": 19, "pergunta": "Parkinson...", "resposta": "SER",
     "opcoes": [ { "id": 1, "opcao": "ESTAR" }, { "id": 2, "opcao": "SER" } ]
   },
   {
-    "id": 20, "pergunta": "Tosse crônica em fumantes...", "resposta": "..",
+    "id": 20, "pergunta": "Tosse crônica em fumantes...", "resposta": "SER",
     "opcoes": [ { "id": 1, "opcao": "ESTAR" }, { "id": 2, "opcao": "SER" } ]
   },
   {
-    "id": 21, "pergunta": "Problemas neurológicos...", "resposta": "..",
+    "id": 21, "pergunta": "Problemas neurológicos...", "resposta": "SER",
     "opcoes": [ { "id": 1, "opcao": "ESTAR" }, { "id": 2, "opcao": "SER" } ]
   },
   {
-    "id": 22, "pergunta": "Histerectomia...", "resposta": "..",
+    "id": 22, "pergunta": "Histerectomia...", "resposta": "SER",
     "opcoes": [ { "id": 1, "opcao": "ESTAR" }, { "id": 2, "opcao": "SER" } ]
   },
   {
-    "id": 23, "pergunta": "Idade avançada...", "resposta": "..",
+    "id": 23, "pergunta": "Idade avançada...", "resposta": "SER",
     "opcoes": [ { "id": 1, "opcao": "ESTAR" }, { "id": 2, "opcao": "SER" } ]
   },
   {
-    "id": 24, "pergunta": "Cirurgia de retirada do útero...", "resposta": "..",
+    "id": 24, "pergunta": "Cirurgia de retirada do útero...", "resposta": "SER",
     "opcoes": [ { "id": 1, "opcao": "ESTAR" }, { "id": 2, "opcao": "SER" } ]
   },
   {
-    "id": 25, "pergunta": "AVC...", "resposta": "..",
+    "id": 25, "pergunta": "AVC...", "resposta": "SER",
     "opcoes": [ { "id": 1, "opcao": "ESTAR" }, { "id": 2, "opcao": "SER" } ]
   },
   {
-    "id": 26, "pergunta": "Alzheimer...", "resposta": "..",
+    "id": 26, "pergunta": "Alzheimer...", "resposta": "SER",
     "opcoes": [ { "id": 1, "opcao": "ESTAR" }, { "id": 2, "opcao": "SER" } ]
   }
 ]

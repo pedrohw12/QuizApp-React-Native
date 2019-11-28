@@ -6,23 +6,21 @@ import data from './data.json';
 
 import Perguntas from './Perguntas';
 
-import {Botao, Box} from './style';
-
-// const screenHeight = Math.round(Dimensions.get('window').height);
-// let thirdH = screenHeight / 4;
-
 const screenHeight = Math.round(Dimensions.get('screen').height);
 let thirdH = screenHeight / 3.8;
-let correr = 180;
+let correr = 60;
+let next = correr + correr;
+
+const resposta = false;
 
 export default class Quiz extends Component {
   handleScroll = () => {
-    this.ListView_Ref.scrollTo({y: correr = correr + 50  , animated:true}); 
+    this.ListView_Ref.scrollTo({y: correr = correr + next  , animated:true}); 
   }
 
   render() {
     return ( 
-      <View style={{backgroundColor: 'red', height: '75%'}}>
+      <View style={{backgroundColor: 'white', height: '75%'}}>
         <Icon name="arrow-up" size={50} style={{position: 'absolute', marginLeft: '42%', marginTop: '15%'}} />
         <ScrollView
           ref={(ref)=>{ this.ListView_Ref = ref}}
@@ -33,9 +31,16 @@ export default class Quiz extends Component {
         >
         <Perguntas />
         </ScrollView>
-        <TouchableOpacity style={styles.btn} title="botao" onPress={()=>this.handleScroll()}>
+        {resposta && 
+        <TouchableOpacity style={styles.btn} onPress={()=>this.handleScroll()}>
           <Text style={{fontWeight: 'bold'}}>Próxima</Text>
         </TouchableOpacity>
+        }
+        {!resposta &&
+        <TouchableOpacity style={styles.btnError} onPress={()=>{}}>
+          <Text style={{fontWeight: 'bold'}}> Próxima </Text>
+        </TouchableOpacity>
+        }
       </View>
   );
   }
@@ -57,5 +62,13 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     borderRadius: 8,
     marginHorizontal: 10
-  }
+  },
+  btnError: {
+    backgroundColor: 'red',
+    height: '23.5%',
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderRadius: 8,
+    marginHorizontal: 10
+  },
 });
