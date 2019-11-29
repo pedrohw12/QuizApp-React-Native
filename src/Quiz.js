@@ -11,7 +11,13 @@ let thirdH = screenHeight / 3.8;
 let correr = 60;
 let next = correr + correr;
 
-const resposta = false;
+const resposta = [
+  {id: 1, alternativa: 'SER'}
+];
+
+const gabarito = [
+  {id: 1, resp: 'SER'}
+];
 
 export default class Quiz extends Component {
   handleScroll = () => {
@@ -31,12 +37,12 @@ export default class Quiz extends Component {
         >
         <Perguntas />
         </ScrollView>
-        {resposta && 
+        {resposta[0].alternativa === gabarito[0].resp && 
         <TouchableOpacity style={styles.btn} onPress={()=>this.handleScroll()}>
           <Text style={{fontWeight: 'bold'}}>Próxima</Text>
         </TouchableOpacity>
         }
-        {!resposta &&
+        {resposta[0].alternativa !== gabarito[0].resp &&
         <TouchableOpacity style={styles.btnError} onPress={()=>{}}>
           <Text style={{fontWeight: 'bold'}}> Próxima </Text>
         </TouchableOpacity>
