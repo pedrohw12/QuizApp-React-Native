@@ -1,26 +1,15 @@
 import React, { Component } from 'react';
-import Quiz  from './src/Quiz';
-import {
-  StyleSheet,
-  View,
-} from 'react-native';
+import { Provider } from 'react-redux';
+import Store from './src/Store';
+
+import Ap from './src/index';
+
 export default class App extends Component {
-  render() {
-    return (
-      <View style={{height: '51%', borderColor: 'red'}}>
-        <View style={styles.toolbar}>        
-        </View>
-        <Quiz /> 
-      </View>
+  render(){
+    return(
+      <Provider store={Store}>
+        <Ap />
+      </Provider>
     );
   }
 }
-
-const styles = StyleSheet.create({
-  toolbar:{
-    backgroundColor:'#00a8ff',
-    paddingTop:30,
-    paddingBottom:10,
-    height: 60,
-  },
-});

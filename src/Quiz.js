@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import { Dimensions } from 'react-native';
-import { ScrollView, View, StyleSheet, Button, TouchableOpacity, Text } from 'react-native';
+import { ScrollView, View, StyleSheet, TouchableOpacity, Text } from 'react-native';
 import Icon from 'react-native-vector-icons/Entypo'
 import data from './data.json';
 
@@ -11,20 +12,16 @@ let thirdH = screenHeight / 3.8;
 let correr = 60;
 let next = correr + correr;
 
-const resposta = [
-  {id: 1, alternativa: 'SER'}
+const respostas = [
+  {id: 1, alternativa: this.props.resposta }
 ];
 
-const gabarito = [
-  {id: 1, resp: 'SER'}
-];
-
-export default class Quiz extends Component {
+class Quiz extends Component {
   handleScroll = () => {
     this.ListView_Ref.scrollTo({y: correr = correr + next  , animated:true}); 
   }
 
-  render() {
+  render() { console.log(this.props.resposta)
     return ( 
       <View style={{backgroundColor: 'white', height: '75%'}}>
         <Icon name="arrow-up" size={50} style={{position: 'absolute', marginLeft: '42%', marginTop: '15%'}} />
@@ -37,12 +34,12 @@ export default class Quiz extends Component {
         >
         <Perguntas />
         </ScrollView>
-        {resposta[0].alternativa === gabarito[0].resp && 
+        {respostas[0].alternativa === this.props.resposta && 
         <TouchableOpacity style={styles.btn} onPress={()=>this.handleScroll()}>
-          <Text style={{fontWeight: 'bold'}}>Próxima</Text>
+          <Text style={{fontWeight: 'bold'}}> Próxima </Text>
         </TouchableOpacity>
         }
-        {resposta[0].alternativa !== gabarito[0].resp &&
+        {respostas[0].alternativa !== this.props.resposta &&
         <TouchableOpacity style={styles.btnError} onPress={()=>{}}>
           <Text style={{fontWeight: 'bold'}}> Próxima </Text>
         </TouchableOpacity>
@@ -51,6 +48,21 @@ export default class Quiz extends Component {
   );
   }
 }
+
+const mapStateToProps = (state) => {
+  return {
+    resposta:state.respostaReducer.resposta,
+  };
+};
+
+const dispatchToProps = (dispatch) => {
+  return {
+    setResposta: (resposta)=> dispatch({type: 'SET_RESPOSTA', payload: {resposta}})
+  };
+};
+
+export default connect(mapStateToProps, dispatchToProps)(Quiz);
+// export default Quiz;
 
 const styles = StyleSheet.create({
   respostaBox: {
