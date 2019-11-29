@@ -17,13 +17,7 @@ const screenHeight = Math.round(Dimensions.get('window').height);
 let thirdH = screenHeight / 4;
 
 class Perguntas extends Component {
-  handleClick = () => {
-    // alert(this.o.opcao)
-  }
-
   render() {
-    // let opa = o.opcao;
-    // console.log(opa);
       return ( 
          data.map((i, k)=> (
            <Box key={k} height={thirdH}>
@@ -32,11 +26,11 @@ class Perguntas extends Component {
             {i.opcoes.map(o=> 
 
             <View style={styles.respostaBox}>
-              <Botao onPress={()=> this.props.setResposta('feito')} width={thirdH} >
+              <Botao onPress={()=> this.props.setResposta(o.opcao)} width={thirdH} >
                 <Text> {o.opcao} </Text>
               </Botao>
             </View>
-            )}
+            )} 
             
            </Box>
          ))

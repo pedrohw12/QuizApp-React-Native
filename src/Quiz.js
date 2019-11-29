@@ -13,8 +13,9 @@ let correr = 60;
 let next = correr + correr;
 
 const respostas = [
-  {id: 1, alternativa: this.props.resposta }
+  data.map(i=>i.resposta + ' ' + i.id)
 ];
+
 
 class Quiz extends Component {
   handleScroll = () => {
@@ -34,12 +35,12 @@ class Quiz extends Component {
         >
         <Perguntas />
         </ScrollView>
-        {respostas[0].alternativa === this.props.resposta && 
+        {'a' === 'a' && 
         <TouchableOpacity style={styles.btn} onPress={()=>this.handleScroll()}>
           <Text style={{fontWeight: 'bold'}}> Próxima </Text>
         </TouchableOpacity>
         }
-        {respostas[0].alternativa !== this.props.resposta &&
+        {'a' !=='a' &&
         <TouchableOpacity style={styles.btnError} onPress={()=>{}}>
           <Text style={{fontWeight: 'bold'}}> Próxima </Text>
         </TouchableOpacity>
